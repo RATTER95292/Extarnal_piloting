@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Внешнее пилотирвание</string>
+    <string name="Introduction">Введение</string>
+    <string name="Documentation">Докуметнация</string>
+    <string name="pilot_eds">Пилот. самолета с ЭДС</string>
+    <string name="pilot_dvs">Пилот. самолета с ДВС</string>
+    <string name="pilot_kva">Пилот. квадракоптера</string>
+    <string name="processing">Обработка данных</string>
+    <string name="diagnostic">Диагностика</string>
+    <string name="other">Другое</string>
+    <string name="corporation">О создателе</string>
+    <string name="pay">Вопросы</string>
 
 </resources>

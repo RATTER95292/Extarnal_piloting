@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuIntroduction"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/Introduction"/>
+    <item
+        android:id="@+id/menuDocumentation"
+        android:icon="@drawable/docuvrntation"
+        android:title="@string/Documentation"/>
+    <item
+        android:id="@+id/menuPilot_eds"
+        android:icon="@drawable/bum_fly"
+        android:title="@string/pilot_eds"/>
+    <item
+        android:id="@+id/menuPilot_dvs"
+        android:icon="@drawable/plane"
+        android:title="@string/pilot_dvs"/>
+    <item
+        android:id="@+id/menuPilot_kva"
+        android:icon="@drawable/img"
+        android:title="@string/pilot_kva"/>
+    <item
+        android:id="@+id/menuProcessing"
+        android:icon="@drawable/img_235152"
+        android:title="@string/processing"/>
+    <item
+        android:id="@+id/menuDiagnostic"
+        android:icon="@drawable/bum_fly"
+        android:title="@string/diagnostic"/>
+
+    <item android:title="@string/other">
+
+        <menu>
+            <item
+                android:id="@+id/menuCorporation"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/corporation"/>
+            <item
+                android:id="@+id/menuPay"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="@string/pay"/>
+
+        </menu>
+
+    </item>
+
+</menu>
