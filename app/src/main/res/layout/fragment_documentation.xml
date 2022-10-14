@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".documentationFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zav0"
+                android:layout_marginTop="10dp"
+                android:textSize="35dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/orange" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/u134"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/zav1"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/zav4"
+                    android:layout_marginHorizontal="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/orange" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zav3"
+                    android:layout_marginTop="10dp"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/u345"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/shablon1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav6"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+
+                    <Button
+                        android:id="@+id/primer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav7"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+
+
+                    <Button
+                        android:id="@+id/zadanie1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav8"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zav5"
+                    android:layout_marginTop="10dp"
+                    android:textSize="35dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/orange" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/u4556"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/shablon2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav6"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+
+                    <Button
+                        android:id="@+id/primer2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav7"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+
+
+                    <Button
+                        android:id="@+id/zadanie2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zav8"
+                        android:linksClickable="true"
+                        android:layout_marginHorizontal="5dp"
+                        android:textSize="15dp"
+                        android:autoLink="web"
+                        android:textColor="@color/black"
+                        android:onClick="Click"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+</FrameLayout>

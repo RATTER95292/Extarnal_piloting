@@ -26,7 +26,7 @@
         android:title="@string/processing"/>
     <item
         android:id="@+id/menuDiagnostic"
-        android:icon="@drawable/bum_fly"
+        android:icon="@drawable/diagnostic"
         android:title="@string/diagnostic"/>
 
     <item android:title="@string/other">

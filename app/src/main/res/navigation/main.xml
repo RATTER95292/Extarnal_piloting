@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuIntroduction">
+
+    <fragment
+        android:id="@+id/menuIntroduction"
+        android:name="com.example.extarnal_piloting.introductionFragment"
+        android:label="Введение"
+        tools:layout="@layout/fragment_introduction" />
+    <fragment
+        android:id="@+id/menuDocumentation"
+        android:name="com.example.extarnal_piloting.documentationFragment"
+        android:label="Документация"
+        tools:layout="@layout/fragment_documentation" />
+    <fragment
+        android:id="@+id/menuPilot_eds"
+        android:name="com.example.extarnal_piloting.pilot_edsFragment"
+        android:label="Пилот. самолета с ЭДС"
+        tools:layout="@layout/fragment_pilot_eds" />
+    <fragment
+        android:id="@+id/menuPilot_dvs"
+        android:name="com.example.extarnal_piloting.pilot_dvsFragment"
+        android:label="Пилот. самолет с ДВС"
+        tools:layout="@layout/fragment_pilot_dvs" />
+    <fragment
+        android:id="@+id/menuPilot_kva"
+        android:name="com.example.extarnal_piloting.pilot_kvaFragment"
+        android:label="Пилот. квадракоптера"
+        tools:layout="@layout/fragment_pilot_kva" />
+    <fragment
+        android:id="@+id/menuProcessing"
+        android:name="com.example.extarnal_piloting.processingFragment"
+        android:label="fragment_processing"
+        tools:layout="@layout/fragment_processing" />
+    <fragment
+        android:id="@+id/menuDiagnostic"
+        android:name="com.example.extarnal_piloting.diagnosticFragment"
+        android:label="Диагностика"
+        tools:layout="@layout/fragment_diagnostic" />
+    <fragment
+        android:id="@+id/menuCorporation"
+        android:name="com.example.extarnal_piloting.corporationFragment"
+        android:label="О создателе"
+        tools:layout="@layout/fragment_corporation" />
+    <fragment
+        android:id="@+id/menuPay"
+        android:name="com.example.extarnal_piloting.questionFragment"
+        android:label="вопросы"
+        tools:layout="@layout/fragment_question" />
+</navigation>
