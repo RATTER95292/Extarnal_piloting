@@ -70,8 +70,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav6"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="20dp"
-                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
 
                     <Button
@@ -79,11 +79,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/zav7"
-                        android:autoLink="web"
-                        android:linksClickable="true"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="20dp"
-                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
 
 
@@ -92,12 +90,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/zav8"
-                        android:autoLink="web"
-                        android:linksClickable="true"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="15dp"
-                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
+
                 </LinearLayout>
 
 
@@ -124,8 +121,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav6"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="20dp"
-                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
 
                     <Button
@@ -133,11 +130,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/zav7"
-                        android:autoLink="web"
-                        android:linksClickable="true"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="20dp"
-                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
 
 
@@ -146,11 +141,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/zav8"
-                        android:linksClickable="true"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="15dp"
-                        android:autoLink="web"
-                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textColor="@color/white"
                         android:onClick="Click"/>
                 </LinearLayout>
 

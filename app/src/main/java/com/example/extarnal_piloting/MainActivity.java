@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
                 // о корпорации
             case R.id.zadanie2:
-
                 Intent inte = new Intent();
                 inte.setAction(Intent.ACTION_VIEW);
                 inte.addCategory(Intent.CATEGORY_BROWSABLE);
