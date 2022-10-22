@@ -8,6 +8,12 @@
         android:id="@+id/menuDocumentation"
         android:icon="@drawable/docuvrntation"
         android:title="@string/Documentation"/>
+
+    <item
+        android:id="@+id/menuSimulator"
+        android:icon="@drawable/img_235152"
+        android:title="@string/Simulator"/>
+
     <item
         android:id="@+id/menuPilot_eds"
         android:icon="@drawable/bum_fly"

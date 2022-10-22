@@ -5,10 +5,26 @@
     android:layout_height="match_parent"
     tools:context=".pilot_kvaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="@string/name_module3"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/orange"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

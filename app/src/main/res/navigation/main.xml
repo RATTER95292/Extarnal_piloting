@@ -10,6 +10,8 @@
         android:name="com.example.extarnal_piloting.introductionFragment"
         android:label="Введение"
         tools:layout="@layout/fragment_introduction" />
+
+
     <fragment
         android:id="@+id/menuDocumentation"
         android:name="com.example.extarnal_piloting.documentationFragment"
@@ -50,4 +52,9 @@
         android:name="com.example.extarnal_piloting.questionFragment"
         android:label="вопросы"
         tools:layout="@layout/fragment_question" />
+    <fragment
+        android:id="@+id/menuSimulator"
+        android:name="com.example.extarnal_piloting.SimulatorFragment"
+        android:label="Симулятор"
+        tools:layout="@layout/fragment_simulator" />
 </navigation>

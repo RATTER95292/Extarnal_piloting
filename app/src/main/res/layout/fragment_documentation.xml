@@ -29,9 +29,10 @@
                     android:src="@drawable/u134"/>
 
                 <TextView
+                    android:id="@+id/text1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginHorizontal="15dp"
                     android:text="@string/zav1"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
@@ -41,7 +42,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="@string/zav4"
-                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:textStyle="italic"
                     android:textSize="20dp"
                     android:textColor="@color/orange" />
 
@@ -56,9 +58,9 @@
                     android:textColor="@color/orange" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/u345"/>
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kmkmkmkm"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"

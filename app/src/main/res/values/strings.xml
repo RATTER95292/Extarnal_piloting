@@ -2,7 +2,8 @@
     <string name="app_name">Внешнее пилотирвание</string>
     <string name="Introduction">Введение</string>
     <string name="Documentation">Докуметнация</string>
-    <string name="pilot_eds">Пилот. самолета с ЭДС</string>
+    <string name="Simulator">Симулятор Geoscan Trainer</string>
+    <string name="pilot_eds">Пилот. самолета с ЭД</string>
     <string name="pilot_dvs">Пилот. самолета с ДВС</string>
     <string name="pilot_kva">Пилот. квадракоптера</string>
     <string name="processing">Обработка данных</string>
@@ -11,6 +12,7 @@
     <string name="corporation">О создателе</string>
     <string name="pay">Вопросы</string>
     <string name="module">Модули</string>
+    <string name="button">Источник</string>
 
     <!-- Введение -->
 
@@ -32,36 +34,45 @@
     <string name="zav11">Задание</string>
     <string name="zav4">Сначала скачайте документ и в нем вносите правки!!!
 В противном случае всю вашу информацию увидят другие пользователи!</string>
+    <string name="sborka">Задание</string>
+    <string name="sborkaPar">Задание</string>
+    <string name="zav">Задание</string>
+
+
+    <!-- Введение -->
+    <string name="sim">Пока мы сидим в аудитории, мы можем научиться управлять самолетом, благодаря симулятору. Симулятор представляет собой имитационную модель самолета, где можно настраивать как сам полет, так и внештатные ситуации:
+Для начала откроем Geoscan Planner и Geoscan Trainer. Geoscan Planner - программа, в которой мы создаем полетное задание. Geoscan Trainer - имитационная модель нашего воздушного судна.
+Удобнее всего развернуть  приложения на пол экрана каждое:</string>
+    <string name="sim1">Создадим новый проект. Для этого в Geoscan Planner выберем вкладку Проект->Новый проект:</string>
+    <string name="sim2">Введем данные по проекту. Имя выбираем произвольное. Все остальные данные выбираем в соответствии с изображением:</string>
+
 
     <!-- Пилотирование самолета с ЭДС -->
-    <string name="fb">Примерa</string>
+    <string name="name_module1">Внешнее пилотирование беспилотного воздушного судна самолетного типа с ЭД</string>
 
 
     <!-- Пилотирование самолета ДВС -->
-
-
+    <string name="name_module2">Внешнее пилотирование беспилотного воздушного судна самолётного типас ДВС</string>
 
     <!-- Пилотирование квадракоптера -->
-
+    <string name="name_module3">Внешнее пилотирование беспилотного воздушного судна вертолетного/мультироторного типа</string>
 
 
     <!-- Обработка -->
+    <string name="name_module4">Обработка данных дистанционного зондирования Земли</string>
 
 
 
     <!-- Диагностика -->
+    <string name="name_module5">Техническое обслуживание и ремонт</string>
 
 
 
     <!-- О создателе -->
-
-
+    <string name="name_corporation">Приложение написал Артем Рябов из компании В.С.Ч.Р</string>
 
     <!-- Вопросы -->
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-
-
 
 </resources>
