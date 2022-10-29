@@ -20,11 +20,22 @@
                 android:layout_margin="10dp"
                 android:text="@string/name_module2"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30sp"
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
 
 
+            <WebView
+                android:id="@+id/sborka1"
+                style="@style/MyWebView"/>
+
+            <WebView
+                android:id="@+id/parashut1"
+                style="@style/MyWebView" />
+
+            <WebView
+                android:id="@+id/plan1"
+                style="@style/MyWebView"/>
 
         </LinearLayout>
     </ScrollView>

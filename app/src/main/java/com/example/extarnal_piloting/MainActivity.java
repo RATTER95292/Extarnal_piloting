@@ -31,21 +31,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-        //WebView sborka1 = (WebView)findViewById(R.id.video1);
-
-        //Самолет с ЭД
-        String video1 = "https://youtu.be/mGNPX4eOHGE";
-
-
-        //sborka1.getSettings().setJavaScriptEnabled(true);
-        //WebClient webViewClient = new WebClient();
-        //sborka1.setWebViewClient(webViewClient);
-
-        //sborka1.loadUrl(video1);
-
-
         DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
 
         findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
@@ -61,26 +46,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
     }
-
-    /*    Самолет с ЭД
-    сборка парашута https://youtu.be/BxuvOp4MLqo
-    построение плана полета https://youtu.be/gJREURn_vws
-
-      Самолет с ДВС
-    сборка https://youtu.be/jDsCSeW9DqU
-
-      Квадракоптера
-    сборка https://youtu.be/VHLuAjPhY5g
-
-      Обработка данных
-     Урок 1 https://youtu.be/BbEqox2ZmFc
-     Урок 2 https://youtu.be/_ZJT2A3jX-M?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0
-     Урок 3 https://youtu.be/vDmt0GCXKgs?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0
-     Урок 4 https://youtu.be/VKmomw1-4qE?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0
-     Урок 5 https://youtu.be/QIDTgRqqjic?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0
-    */
-
-
 
     public void Click(View view){
         switch (view.getId()){
@@ -137,8 +102,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Button(View view){
-
-
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);

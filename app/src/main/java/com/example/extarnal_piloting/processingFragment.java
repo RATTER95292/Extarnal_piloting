@@ -1,5 +1,6 @@
 package com.example.extarnal_piloting;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -52,17 +53,6 @@ public class processingFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        WebView sborka1 = (WebView) getView().findViewById(R.id.video1);
-        String video1 = "https://youtu.be/mGNPX4eOHGE";
-
-
-
-        sborka1.getSettings().setJavaScriptEnabled(true);
-        WebClient webViewClient = new WebClient();
-        sborka1.setWebViewClient(webViewClient);
-
-        sborka1.loadUrl(video1);
-
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -72,10 +62,51 @@ public class processingFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_processing, container, false);}
+
+    public void onViewCreated (View view, Bundle savedInstanceState){
 
 
+        WebClient webViewClient = new WebClient();
 
-        return inflater.inflate(R.layout.fragment_processing, container, false);
+        WebView processing1 = (WebView) getView().findViewById(R.id.video1);
+        WebView processing2 = (WebView) getView().findViewById(R.id.video2);
+        WebView processing3 = (WebView) getView().findViewById(R.id.video3);
+        WebView processing4 = (WebView) getView().findViewById(R.id.video4);
+        WebView processing5 = (WebView) getView().findViewById(R.id.video5);
+
+        String video1 = "https://youtu.be/BbEqox2ZmFc";
+        String video2 = "https://youtu.be/_ZJT2A3jX-M?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+        String video3 = "https://youtu.be/vDmt0GCXKgs?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+        String video4 = "https://youtu.be/VKmomw1-4qE?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+        String video5 = "https://youtu.be/QIDTgRqqjic?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+
+        processing1.getSettings().setJavaScriptEnabled(true);
+        processing1.setWebViewClient(webViewClient);
+        processing1.loadUrl(video1);
+        processing1.setVisibility(View.INVISIBLE);
+
+        processing2.getSettings().setJavaScriptEnabled(true);
+        processing2.setWebViewClient(webViewClient);
+        processing2.loadUrl(video2);
+
+
+        processing3.getSettings().setJavaScriptEnabled(true);
+        processing3.setWebViewClient(webViewClient);
+        processing3.loadUrl(video3);
+
+        processing4.getSettings().setJavaScriptEnabled(true);
+        processing4.setWebViewClient(webViewClient);
+        processing4.loadUrl(video4);
+
+        processing5.getSettings().setJavaScriptEnabled(true);
+        processing5.setWebViewClient(webViewClient);
+        processing5.loadUrl(video5);
+
+        processing2.setVisibility(View.INVISIBLE);
+        processing3.setVisibility(View.INVISIBLE);
+        processing4.setVisibility(View.INVISIBLE);
+        processing5.setVisibility(View.INVISIBLE);
     }
 
     public class WebClient extends WebViewClient {

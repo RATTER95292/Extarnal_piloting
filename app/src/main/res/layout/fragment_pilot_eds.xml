@@ -23,6 +23,19 @@
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
 
+            <WebView
+                android:id="@+id/sborka"
+                style="@style/MyWebView"/>
+
+            <WebView
+                android:id="@+id/parashut"
+                style="@style/MyWebView"/>
+
+            <WebView
+                android:id="@+id/plan"
+                style="@style/MyWebView"/>
+
+
 
 
         </LinearLayout>

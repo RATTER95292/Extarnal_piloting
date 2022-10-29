@@ -53,4 +53,8 @@ public class documentationFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_documentation, container, false);
     }
 
+    public void onViewCreated (View view, Bundle savedInstanceState){
+
+    }
+
 }

@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".introductionFragment">
+    tools:context=".introductionFragment"
+    android:fastScrollEnabled="true"
+    android:fastScrollAlwaysVisible="true">
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -24,6 +24,20 @@
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
 
+
+            <WebView
+                android:id="@+id/sborka2"
+                style="@style/MyWebView"/>
+
+            <WebView
+                android:id="@+id/parashut2"
+                style="@style/MyWebView"/>
+
+            <WebView
+                android:id="@+id/plan2"
+                style="@style/MyWebView"/>
+
+
         </LinearLayout>
     </ScrollView>
 

@@ -114,6 +114,11 @@
 
     <!-- Обработка -->
     <string name="name_module4">Обработка данных дистанционного зондирования Земли</string>
+    <string name="processing1">Урок 1 </string>
+    <string name="processing2">Урок 2</string>
+    <string name="processing3">Урок 3</string>
+    <string name="processing4">Урок 4</string>
+    <string name="processing5">Урок 5</string>
 
 
 
@@ -126,7 +131,8 @@
     <string name="name_corporation">Приложение написал Артем Рябов из компании В.С.Ч.Р</string>
 
     <!-- Вопросы -->
-
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qastion">Если у вас остались вопросы? Напишетие мне</string>
+    <string name="qastion1">Мой Вконтакте</string>
+    <string name="qastion2">Мой Телеграм</string>
 
 </resources>

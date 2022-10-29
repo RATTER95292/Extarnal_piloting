@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".processingFragment">
+    tools:context=".processingFragment"
+    android:fastScrollEnabled="true"
+    android:fastScrollAlwaysVisible="true">
 
 
     <ScrollView
@@ -13,25 +15,69 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center_vertical">
+            android:gravity="center">
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:text="@string/name_module4"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="30dp"
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
-            
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/processing1"
+                android:textSize="30sp"/>
+
             <WebView
                 android:id="@+id/video1"
-                android:layout_width="match_parent"
+                style="@style/MyWebView" />
+
+            <Button
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/processing2"
+                android:textSize="30sp"/>
+
+            <WebView
+                android:id="@+id/video2"
+                style="@style/MyWebView"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/processing3"
+                android:textSize="30sp"/>
+
+            <WebView
+                android:id="@+id/video3"
+                style="@style/MyWebView"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/processing4"
+                android:textSize="30sp"/>
+
+            <WebView
+                android:id="@+id/video4"
+                style="@style/MyWebView"
                 android:layout_margin="15dp"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/processing5"
+                android:textSize="30sp"/>
 
-
+            <WebView
+                android:id="@+id/video5"
+                style="@style/MyWebView" />
 
         </LinearLayout>
     </ScrollView>

@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,5 +62,38 @@ public class pilot_dvsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_pilot_dvs, container, false);
+    }
+
+
+    public void onViewCreated (View view, Bundle savedInstanceState){
+        WebClient webViewClient = new WebClient();
+
+        WebView sborka = (WebView) getView().findViewById(R.id.sborka1);
+        WebView parashut = (WebView) getView().findViewById(R.id.parashut1);
+        WebView plan = (WebView) getView().findViewById(R.id.plan1);
+
+        String video1 = "https://youtu.be/jDsCSeW9DqU";
+        String video2 = "https://youtu.be/BxuvOp4MLqo";
+        String video3 = "https://youtu.be/gJREURn_vws";
+
+
+        sborka.getSettings().setJavaScriptEnabled(true);
+        sborka.setWebViewClient(webViewClient);
+        sborka.loadUrl(video1);
+
+        parashut.getSettings().setJavaScriptEnabled(true);
+        parashut.setWebViewClient(webViewClient);
+        parashut.loadUrl(video2);
+
+        plan.getSettings().setJavaScriptEnabled(true);
+        plan.setWebViewClient(webViewClient);
+        plan.loadUrl(video3);
+    }
+
+    public class WebClient extends WebViewClient {
+        @Override
+        public  boolean shouldOverrideUrlLoading(WebView webView, String Url){
+            return false;
+        }
     }
 }
