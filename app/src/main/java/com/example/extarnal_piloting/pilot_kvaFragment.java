@@ -69,21 +69,15 @@ public class pilot_kvaFragment extends Fragment {
         WebClient webViewClient = new WebClient();
 
         WebView sborka = (WebView) getView().findViewById(R.id.sborka2);
-        WebView parashut = (WebView) getView().findViewById(R.id.parashut2);
         WebView plan = (WebView) getView().findViewById(R.id.plan2);
 
         String video1 = "https://youtu.be/VHLuAjPhY5g";
-        String video2 = "https://youtu.be/BxuvOp4MLqo";
         String video3 = "https://youtu.be/gJREURn_vws";
 
 
         sborka.getSettings().setJavaScriptEnabled(true);
         sborka.setWebViewClient(webViewClient);
         sborka.loadUrl(video1);
-
-        parashut.getSettings().setJavaScriptEnabled(true);
-        parashut.setWebViewClient(webViewClient);
-        parashut.loadUrl(video2);
 
         plan.getSettings().setJavaScriptEnabled(true);
         plan.setWebViewClient(webViewClient);

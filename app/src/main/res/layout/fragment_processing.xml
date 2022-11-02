@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".processingFragment"
-    android:fastScrollEnabled="true"
-    android:fastScrollAlwaysVisible="true">
+    tools:context=".processingFragment">
 
 
     <ScrollView
@@ -28,52 +26,65 @@
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/processing1"
-                android:textSize="30sp"/>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/lesson1"
+                    android:text="@string/processing1"
+                    style="@style/MyButton"
+                    android:onClick="ClickLesson"/>
+
+                    <Button
+                        android:id="@+id/lesson2"
+                        style="@style/MyButton"
+                        android:text="@string/processing2"
+                        android:onClick="ClickLesson"/>
+
+                    <Button
+                        android:id="@+id/lesson3"
+                        android:text="@string/processing3"
+                        style="@style/MyButton"
+                        android:onClick="ClickLesson"/>
+
+                    <Button
+                        android:id="@+id/lesson4"
+                        android:text="@string/processing4"
+                        style="@style/MyButton"
+                        android:onClick="ClickLesson"/>
+
+                    <Button
+                        android:id="@+id/lesson5"
+                        android:text="@string/processing5"
+                        style="@style/MyButton"
+                        android:onClick="ClickLesson"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
 
             <WebView
                 android:id="@+id/video1"
                 style="@style/MyWebView" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/processing2"
-                android:textSize="30sp"/>
-
             <WebView
                 android:id="@+id/video2"
                 style="@style/MyWebView"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/processing3"
-                android:textSize="30sp"/>
 
             <WebView
                 android:id="@+id/video3"
                 style="@style/MyWebView"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/processing4"
-                android:textSize="30sp"/>
-
             <WebView
                 android:id="@+id/video4"
                 style="@style/MyWebView"
                 android:layout_margin="15dp"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/processing5"
-                android:textSize="30sp"/>
 
             <WebView
                 android:id="@+id/video5"

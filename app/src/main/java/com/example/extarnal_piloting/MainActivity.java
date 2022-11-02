@@ -25,6 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String CHOISES = "choises";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Click(View view){
-        switch (view.getId()){
+    public void Click(View view) {
+        switch (view.getId()) {
 
             case R.id.shablon1:
                 Intent intent = new Intent();
@@ -91,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(inten);
                 return;
 
-                // о корпорации
+            // о корпорации
             case R.id.zadanie2:
                 Intent inte = new Intent();
                 inte.setAction(Intent.ACTION_VIEW);
@@ -101,7 +102,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void Button(View view){
+
+    public void Button(View view) {
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
@@ -110,5 +112,29 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void ClickLesson(View view) {
+        Intent intent = new Intent(this, processingFragment.class);
+        int lesson = 0;
+        switch (view.getId()) {
 
+            case R.id.lesson1:
+                lesson = 1;
+
+            case R.id.lesson2:
+                lesson = 2;
+
+            case R.id.lesson3:
+                lesson = 3;
+
+            case R.id.lesson4:
+                lesson = 4;
+                return;
+
+            case R.id.lesson5:
+                lesson = 4;
+                return;
+        }
+        intent.putExtra(CHOISES,lesson);
+        startActivity(intent);
+    }
 }

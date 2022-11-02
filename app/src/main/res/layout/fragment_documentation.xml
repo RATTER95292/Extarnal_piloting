@@ -44,7 +44,7 @@
                     android:text="@string/zav4"
                     android:layout_marginHorizontal="20dp"
                     android:textStyle="italic"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textColor="@color/orange" />
 
                 <TextView
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/zav3"
                     android:layout_marginTop="10dp"
-                    android:textSize="35dp"
+                    android:textSize="35sp"
                     android:gravity="center"
                     android:textStyle="bold"
                     android:textColor="@color/orange" />
@@ -82,7 +82,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav7"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:textColor="@color/white"
                         android:onClick="Click"/>
 
@@ -93,7 +93,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav8"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="17dp"
+                        android:textSize="17sp"
                         android:textColor="@color/white"
                         android:onClick="Click"/>
 
@@ -105,7 +105,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/zav5"
                     android:layout_marginTop="10dp"
-                    android:textSize="35dp"
+                    android:textSize="35sp"
                     android:gravity="center"
                     android:textStyle="bold"
                     android:textColor="@color/orange" />
@@ -123,7 +123,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav6"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:textColor="@color/white"
                         android:onClick="Click"/>
 
@@ -133,7 +133,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav7"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:textColor="@color/white"
                         android:onClick="Click"/>
 
@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/zav8"
                         android:layout_marginHorizontal="5dp"
-                        android:textSize="17dp"
+                        android:textSize="17sp"
                         android:textColor="@color/white"
                         android:onClick="Click"/>
                 </LinearLayout>
