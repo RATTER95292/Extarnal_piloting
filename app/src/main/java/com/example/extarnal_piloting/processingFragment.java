@@ -108,14 +108,14 @@ public class processingFragment extends Fragment {
         processing5.getSettings().setJavaScriptEnabled(true);
         processing5.setWebViewClient(webViewClient);
         processing5.loadUrl(video5);
-
+/*
         processing1.setVisibility(View.GONE);
         processing2.setVisibility(View.GONE);
         processing3.setVisibility(View.GONE);
         processing4.setVisibility(View.GONE);
         processing5.setVisibility(View.GONE);
 
-/*
+
         //Bundle arguments = getIntent().getExtras();
         int lesson = arguments.getInt(MainActivity.CHOISES);
 

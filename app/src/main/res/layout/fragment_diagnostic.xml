@@ -24,6 +24,24 @@
                 android:textColor="@color/orange"
                 android:textStyle="bold"/>
 
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        style="@style/MyButton"/>
+
+                    <Button
+                        style="@style/MyButton"/>
+
+                    <Button
+                        style="@style/MyButton"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
 
 
         </LinearLayout>
