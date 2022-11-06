@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -70,16 +71,25 @@ public class processingFragment extends Fragment {
 
         return inflater.inflate(R.layout.fragment_processing, container, false);}
 
+
+
+
     public void onViewCreated (View view, Bundle savedInstanceState){
 
-
-        WebClient webViewClient = new WebClient();
 
         WebView processing1 = (WebView) getView().findViewById(R.id.video1);
         WebView processing2 = (WebView) getView().findViewById(R.id.video2);
         WebView processing3 = (WebView) getView().findViewById(R.id.video3);
         WebView processing4 = (WebView) getView().findViewById(R.id.video4);
         WebView processing5 = (WebView) getView().findViewById(R.id.video5);
+
+        Button lesson1 = (Button)  getView().findViewById(R.id.lesson1);
+        Button lesson2 = (Button)  getView().findViewById(R.id.lesson2);
+        Button lesson3 = (Button)  getView().findViewById(R.id.lesson3);
+        Button lesson4 = (Button)  getView().findViewById(R.id.lesson4);
+        Button lesson5 = (Button)  getView().findViewById(R.id.lesson5);
+
+        WebClient webViewClient = new WebClient();
 
         String video1 = "https://youtu.be/BbEqox2ZmFc";
         String video2 = "https://youtu.be/_ZJT2A3jX-M?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
@@ -108,60 +118,71 @@ public class processingFragment extends Fragment {
         processing5.getSettings().setJavaScriptEnabled(true);
         processing5.setWebViewClient(webViewClient);
         processing5.loadUrl(video5);
-/*
+
         processing1.setVisibility(View.GONE);
         processing2.setVisibility(View.GONE);
         processing3.setVisibility(View.GONE);
         processing4.setVisibility(View.GONE);
         processing5.setVisibility(View.GONE);
 
+        lesson1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.VISIBLE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.GONE);
+            }
+        });
 
-        //Bundle arguments = getIntent().getExtras();
-        int lesson = arguments.getInt(MainActivity.CHOISES);
+        lesson2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.VISIBLE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.GONE);
+            }
+        });
+
+        lesson3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.VISIBLE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.GONE);
+            }
+        });
 
 
+        lesson4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-        if (lesson == 1) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.VISIBLE);
+                processing5.setVisibility(View.GONE);
 
-            processing1.setVisibility(View.VISIBLE);
-            processing2.setVisibility(View.GONE);
-            processing3.setVisibility(View.GONE);
-            processing4.setVisibility(View.GONE);
-            processing5.setVisibility(View.GONE);
+            }
+        });
 
-        }else if (lesson == 2){
 
-            processing1.setVisibility(View.GONE);
-            processing2.setVisibility(View.VISIBLE);
-            processing3.setVisibility(View.GONE);
-            processing4.setVisibility(View.GONE);
-            processing5.setVisibility(View.GONE);
-
-        }else if (lesson == 3){
-
-            processing1.setVisibility(View.GONE);
-            processing2.setVisibility(View.GONE);
-            processing3.setVisibility(View.VISIBLE);
-            processing4.setVisibility(View.GONE);
-            processing5.setVisibility(View.GONE);
-
-        }else if (lesson == 4){
-
-            processing1.setVisibility(View.GONE);
-            processing2.setVisibility(View.GONE);
-            processing3.setVisibility(View.GONE);
-            processing4.setVisibility(View.VISIBLE);
-            processing5.setVisibility(View.GONE);
-
-        }else if(lesson == 5){
-
-            processing1.setVisibility(View.GONE);
-            processing2.setVisibility(View.GONE);
-            processing3.setVisibility(View.GONE);
-            processing4.setVisibility(View.GONE);
-            processing5.setVisibility(View.VISIBLE);
-
-        }*/
+        lesson5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.VISIBLE);
+            }
+        });
     }
 
 

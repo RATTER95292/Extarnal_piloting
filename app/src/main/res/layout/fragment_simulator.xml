@@ -24,23 +24,12 @@
                 android:gravity="center"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim2"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"
-                android:layout_marginVertical="20dp"/>
+                style="@style/MyText"
+                android:text="@string/sim2" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim7"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim7" />
 
 
             <ImageView
@@ -49,29 +38,17 @@
                 android:src="@drawable/sim1"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim3"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim3" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim2"/>
 
-
-
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim4"
-                android:textSize="20dp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim4" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -79,14 +56,8 @@
                 android:src="@drawable/sim3"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim6"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
-
+                style="@style/MyText"
+                android:text="@string/sim6" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -94,13 +65,8 @@
                 android:src="@drawable/sim4"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim7"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim7" />
 
 
             <ImageView
@@ -109,13 +75,8 @@
                 android:src="@drawable/sim5" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim8"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim8" />
 
 
             <ImageView
@@ -124,14 +85,8 @@
                 android:src="@drawable/sim6" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim9"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
-
+                style="@style/MyText"
+                android:text="@string/sim9" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -139,13 +94,8 @@
                 android:src="@drawable/sim7" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim8"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim8" />
 
 
             <ImageView
@@ -154,13 +104,8 @@
                 android:src="@drawable/sim8" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim9"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim9" />
 
 
             <ImageView
@@ -169,13 +114,8 @@
                 android:src="@drawable/sim9" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim10"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim10" />
 
 
             <ImageView
@@ -184,13 +124,8 @@
                 android:src="@drawable/sim10" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim11"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim11" />
 
 
             <ImageView
@@ -199,13 +134,8 @@
                 android:src="@drawable/sim11" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim12"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim12" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -213,13 +143,8 @@
                 android:src="@drawable/sim12" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim13"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim13"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -227,13 +152,8 @@
                 android:src="@drawable/sim13" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim14"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim14" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -241,13 +161,8 @@
                 android:src="@drawable/sim14" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim15"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim15" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -255,13 +170,8 @@
                 android:src="@drawable/sim15" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="@string/sim16"
-                android:textSize="20sp"
-                android:layout_marginHorizontal="10dp"
-                android:textColor="@color/black"
-                android:gravity="center"/>
+                style="@style/MyText"
+                android:text="@string/sim16" />
 
             <ImageView
                 android:layout_width="wrap_content"

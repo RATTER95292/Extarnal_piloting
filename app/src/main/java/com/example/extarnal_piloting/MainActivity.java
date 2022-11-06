@@ -130,29 +130,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void ClickLesson(View view) {
-        Intent intent = new Intent(this, processingFragment.class);
-        int lesson = 0;
-        switch (view.getId()) {
 
-            case R.id.lesson1:
-                lesson = 1;
-
-            case R.id.lesson2:
-                lesson = 2;
-
-            case R.id.lesson3:
-                lesson = 3;
-
-            case R.id.lesson4:
-                lesson = 4;
-                return;
-
-            case R.id.lesson5:
-                lesson = 4;
-                return;
-        }
-        intent.putExtra(CHOISES,lesson);
-        startActivity(intent);
-    }
 }

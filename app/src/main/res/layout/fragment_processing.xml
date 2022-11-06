@@ -38,8 +38,7 @@
                 <Button
                     android:id="@+id/lesson1"
                     android:text="@string/processing1"
-                    style="@style/MyButton"
-                    android:onClick="ClickLesson"/>
+                    style="@style/MyButton"/>
 
                     <Button
                         android:id="@+id/lesson2"
