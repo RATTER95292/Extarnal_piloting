@@ -1,5 +1,7 @@
 package com.example.extarnal_piloting;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -60,5 +64,33 @@ public class questionFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_question, container, false);
+    }
+
+    public void onViewCreated (View view, Bundle savedInstanceState){
+        ImageButton telegram = (ImageButton) view.findViewById(R.id.telegram);
+        ImageButton vk = (ImageButton) view.findViewById(R.id.vk);
+
+        telegram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://t.me/RATTER0"));
+                startActivity(intent);
+            }
+        });
+
+        vk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://vk.com/r.atter"));
+                startActivity(intent);
+            }
+        });
+
     }
 }

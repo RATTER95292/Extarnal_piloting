@@ -82,20 +82,26 @@ public class processingFragment extends Fragment {
         WebView processing3 = (WebView) getView().findViewById(R.id.video3);
         WebView processing4 = (WebView) getView().findViewById(R.id.video4);
         WebView processing5 = (WebView) getView().findViewById(R.id.video5);
+        WebView processing6 = (WebView) getView().findViewById(R.id.video6);
+        WebView processing7 = (WebView) getView().findViewById(R.id.video7);
 
         Button lesson1 = (Button)  getView().findViewById(R.id.lesson1);
         Button lesson2 = (Button)  getView().findViewById(R.id.lesson2);
         Button lesson3 = (Button)  getView().findViewById(R.id.lesson3);
         Button lesson4 = (Button)  getView().findViewById(R.id.lesson4);
         Button lesson5 = (Button)  getView().findViewById(R.id.lesson5);
+        Button lesson6 = (Button)  getView().findViewById(R.id.lesson6);
+        Button lesson7 = (Button)  getView().findViewById(R.id.lesson7);
 
         WebClient webViewClient = new WebClient();
 
-        String video1 = "https://youtu.be/BbEqox2ZmFc";
-        String video2 = "https://youtu.be/_ZJT2A3jX-M?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
-        String video3 = "https://youtu.be/vDmt0GCXKgs?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
-        String video4 = "https://youtu.be/VKmomw1-4qE?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
-        String video5 = "https://youtu.be/QIDTgRqqjic?list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+        String video1 = "https://www.youtube.com/watch?v=jVohCPkaqVY&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0";
+        String video2 = "https://www.youtube.com/watch?v=OtADQaojTK8&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0&index=2";
+        String video3 = "https://youtu.be/BbEqox2ZmFc";
+        String video4 = "https://www.youtube.com/watch?v=_ZJT2A3jX-M&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0&index=4";
+        String video5 = "https://www.youtube.com/watch?v=vDmt0GCXKgs&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0&index=5";
+        String video6 = "https://www.youtube.com/watch?v=VKmomw1-4qE&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0&index=6";
+        String video7 = "https://www.youtube.com/watch?v=QIDTgRqqjic&list=PLNLqotQpxb3nUX8nYVzU30YFJcoPCT5V0&index=7";
 
         processing1.getSettings().setJavaScriptEnabled(true);
         processing1.setWebViewClient(webViewClient);
@@ -119,11 +125,21 @@ public class processingFragment extends Fragment {
         processing5.setWebViewClient(webViewClient);
         processing5.loadUrl(video5);
 
+        processing6.getSettings().setJavaScriptEnabled(true);
+        processing6.setWebViewClient(webViewClient);
+        processing6.loadUrl(video6);
+
+        processing7.getSettings().setJavaScriptEnabled(true);
+        processing7.setWebViewClient(webViewClient);
+        processing7.loadUrl(video7);
+
         processing1.setVisibility(View.GONE);
         processing2.setVisibility(View.GONE);
         processing3.setVisibility(View.GONE);
         processing4.setVisibility(View.GONE);
         processing5.setVisibility(View.GONE);
+        processing6.setVisibility(View.GONE);
+        processing7.setVisibility(View.GONE);
 
         lesson1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -133,6 +149,8 @@ public class processingFragment extends Fragment {
                 processing3.setVisibility(View.GONE);
                 processing4.setVisibility(View.GONE);
                 processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.GONE);
             }
         });
 
@@ -144,6 +162,8 @@ public class processingFragment extends Fragment {
                 processing3.setVisibility(View.GONE);
                 processing4.setVisibility(View.GONE);
                 processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.GONE);
             }
         });
 
@@ -155,6 +175,8 @@ public class processingFragment extends Fragment {
                 processing3.setVisibility(View.VISIBLE);
                 processing4.setVisibility(View.GONE);
                 processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.GONE);
             }
         });
 
@@ -168,6 +190,8 @@ public class processingFragment extends Fragment {
                 processing3.setVisibility(View.GONE);
                 processing4.setVisibility(View.VISIBLE);
                 processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.GONE);
 
             }
         });
@@ -181,17 +205,41 @@ public class processingFragment extends Fragment {
                 processing3.setVisibility(View.GONE);
                 processing4.setVisibility(View.GONE);
                 processing5.setVisibility(View.VISIBLE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.GONE);
+            }
+        });
+
+        lesson6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.VISIBLE);
+                processing7.setVisibility(View.GONE);
+            }
+        });
+
+        lesson7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                processing1.setVisibility(View.GONE);
+                processing2.setVisibility(View.GONE);
+                processing3.setVisibility(View.GONE);
+                processing4.setVisibility(View.GONE);
+                processing5.setVisibility(View.GONE);
+                processing6.setVisibility(View.GONE);
+                processing7.setVisibility(View.VISIBLE);
             }
         });
     }
-
-
     public class WebClient extends WebViewClient {
         @Override
         public  boolean shouldOverrideUrlLoading(WebView webView, String Url){
             return false;
         }
     }
-
-
 }

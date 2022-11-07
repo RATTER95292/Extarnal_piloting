@@ -178,44 +178,97 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim16" />
 
+            <TextView
+                style="@style/MyText"
+                android:text="sim17"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim17" />
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim18"
+                />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim18" />
 
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim19"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim19" />
+
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim20"
+                />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim20" />
 
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim21"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim21" />
 
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim22"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim22" />
+
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim23"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim23" />
 
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim24"
+                />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/sim24" />
+
+
+            <TextView
+                style="@style/MyText"
+                android:text="sim25"
+                />
 
             <ImageView
                 android:layout_width="wrap_content"

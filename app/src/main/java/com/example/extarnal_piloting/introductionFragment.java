@@ -1,5 +1,7 @@
 package com.example.extarnal_piloting;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -51,5 +54,21 @@ public class introductionFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_introduction, container, false);
+    }
+
+
+    public void onViewCreated (View view, Bundle savedInstanceState){
+        Button dialog_button = (Button) view.findViewById(R.id.dialog_button);
+
+        dialog_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://lahmeneffa.gitbook.io/docs-tkuik/"));
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -43,26 +43,33 @@
                     <Button
                         android:id="@+id/lesson2"
                         style="@style/MyButton"
-                        android:text="@string/processing2"
-                        android:onClick="ClickLesson"/>
+                        android:text="@string/processing2"/>
 
                     <Button
                         android:id="@+id/lesson3"
                         android:text="@string/processing3"
-                        style="@style/MyButton"
-                        android:onClick="ClickLesson"/>
+                        style="@style/MyButton"/>
 
                     <Button
                         android:id="@+id/lesson4"
                         android:text="@string/processing4"
-                        style="@style/MyButton"
-                        android:onClick="ClickLesson"/>
+                        style="@style/MyButton"/>
 
                     <Button
                         android:id="@+id/lesson5"
                         android:text="@string/processing5"
-                        style="@style/MyButton"
-                        android:onClick="ClickLesson"/>
+                        style="@style/MyButton"/>
+
+                    <Button
+                        android:id="@+id/lesson6"
+                        android:text="@string/processing6"
+                        style="@style/MyButton"/>
+
+                    <Button
+                        android:id="@+id/lesson7"
+                        android:text="@string/processing7"
+                        style="@style/MyButton"/>
+
 
                 </LinearLayout>
 
@@ -88,6 +95,15 @@
             <WebView
                 android:id="@+id/video5"
                 style="@style/MyWebView" />
+
+            <WebView
+                android:id="@+id/video6"
+                style="@style/MyWebView" />
+
+            <WebView
+                android:id="@+id/video7"
+                style="@style/MyWebView" />
+
 
         </LinearLayout>
     </ScrollView>

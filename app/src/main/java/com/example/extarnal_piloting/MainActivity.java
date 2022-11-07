@@ -102,33 +102,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-    public void Button(View view) {
-
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://lahmeneffa.gitbook.io/docs-tkuik/"));
-        startActivity(intent);
-    }
-
-    public void TelegramClick(View view) {
-
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://t.me/RATTER0"));
-        startActivity(intent);
-    }
-
-    public void VkClick(View view) {
-
-        Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.addCategory(Intent.CATEGORY_BROWSABLE);
-        intent.setData(Uri.parse("https://vk.com/r.atter"));
-        startActivity(intent);
-    }
-
-
 }

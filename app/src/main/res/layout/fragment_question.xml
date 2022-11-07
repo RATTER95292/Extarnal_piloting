@@ -24,19 +24,19 @@
             android:orientation="horizontal">
 
         <ImageButton
+            android:id="@+id/telegram"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:src="@drawable/telegram"
-            android:scaleType="fitStart"
-            android:onClick="TelegramClick"/>
+            android:scaleType="fitStart"/>
 
 
         <ImageButton
+            android:id="@+id/vk"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:src="@drawable/vk"
-            android:scaleType="fitStart"
-            android:onClick="VkClick"/>
+            android:scaleType="fitStart"/>
 
         </LinearLayout>
 
