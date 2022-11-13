@@ -129,6 +129,21 @@
 
     <!-- Диагностика -->
     <string name="name_module5">Техническое обслуживание и ремонт</string>
+    <string name="kva">401</string>
+    <string name="pilotEds">201</string>
+    <string name="pilotDvs">701</string>
+    <string name="diagnost">В этом модуле нужно найти поломки и неисправности на БВС и занести их в форму. Старйтесь писать все максимально подробно и исппользовать только техниеские понятия.</string>
+        <!-- Самолет на ЭД-->
+        <string name="fus">Фюзеляж</string>
+        <string name="Cl">Центроплан левый</string>
+        <string name="Cr">Центроплан правый</string>
+        <string name="Kl">Законцовка левая</string>
+        <string name="Kr">Законццовка правая</string>
+        <string name="kile">Кили</string>
+        <string name="modem">Модем КРЛ</string>
+        <!-- Самолет на ДВС-->
+
+        <!-- Квадракоптер-->
 
 
 
