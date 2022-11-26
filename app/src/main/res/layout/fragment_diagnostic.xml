@@ -34,13 +34,20 @@
                 android:gravity="center">
 
                 <Button
+                    android:id="@+id/shablon5"
+                    android:text="@string/shablon"
+                    android:textSize="25sp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="10sp"/>
+                    android:layout_marginHorizontal="20sp"/>
 
                 <Button
+                    android:id="@+id/primer5"
+                    android:text="@string/primer"
+                    android:textSize="25sp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20sp"/>
 
 
             </LinearLayout>
@@ -65,6 +72,16 @@
 
                 </LinearLayout>
             </HorizontalScrollView>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textik"
+                android:text="@string/modem"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/natasha"
+                android:textSize="25sp"/>
 
             <HorizontalScrollView
                 android:layout_width="wrap_content"
@@ -116,10 +133,7 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-            <TextView
-                android:id="@+id/textik"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+
         </LinearLayout>
     </ScrollView>
 

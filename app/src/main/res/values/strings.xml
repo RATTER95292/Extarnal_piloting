@@ -25,13 +25,10 @@
 В заявлении должны быть указаны:- регистрационный (учетный), заводской номера БВС- даты, время начала и конца работы- резервные дни - координаты точек взлета и посадки - зона полета - все населенные пункты по маршруту
 </string>
     <string name="zav3">Представление на полет</string>
-    <string name="zav6">Шаблон</string>
-    <string name="zav7">Пример</string>
-    <string name="zav8">Задание</string>
+    <string name="shablon">Шаблон</string>
+    <string name="primer">Пример</string>
+    <string name="zadanie">Задание</string>
     <string name="zav5">План полета</string>
-    <string name="zav9">Шаблон</string>
-    <string name="zav10">Пример</string>
-    <string name="zav11">Задание</string>
     <string name="zav4">Сначала скачайте документ и в нем вносите правки!!!
 В противном случае всю вашу информацию увидят другие пользователи!</string>
     <string name="sborka">Задание</string>
