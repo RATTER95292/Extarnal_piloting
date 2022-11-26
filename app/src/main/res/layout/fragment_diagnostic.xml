@@ -73,6 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageButton
+                        android:id="@+id/fuselage"
                         android:layout_width="300dp"
                         android:layout_height="400dp"
                         android:src="@drawable/fuselage"
@@ -80,6 +81,7 @@
                         android:scaleType="centerCrop"/>
 
                     <ImageButton
+                        android:id="@+id/cr"
                         android:layout_width="400dp"
                         android:layout_height="300dp"
                         android:src="@drawable/centersectionright"
@@ -87,6 +89,7 @@
                         android:layout_marginHorizontal="30sp"/>
 
                     <ImageButton
+                        android:id="@+id/tl"
                         android:layout_width="450dp"
                         android:layout_height="400dp"
                         android:src="@drawable/thetipisleft"
@@ -94,6 +97,7 @@
                         android:layout_marginHorizontal="30sp"/>
 
                     <ImageButton
+                        android:id="@+id/cc"
                         android:layout_width="500dp"
                         android:layout_height="400dp"
                         android:src="@drawable/keel"
@@ -102,6 +106,7 @@
 
 
                     <ImageButton
+                        android:id="@+id/modem"
                         android:layout_width="500dp"
                         android:layout_height="400dp"
                         android:src="@drawable/modem"
@@ -111,9 +116,10 @@
                 </LinearLayout>
             </HorizontalScrollView>
 
-
-
-
+            <TextView
+                android:id="@+id/textik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
         </LinearLayout>
     </ScrollView>
 

@@ -136,9 +136,7 @@
         <!-- Самолет на ЭД-->
         <string name="fus">Фюзеляж</string>
         <string name="Cl">Центроплан левый</string>
-        <string name="Cr">Центроплан правый</string>
         <string name="Kl">Законцовка левая</string>
-        <string name="Kr">Законццовка правая</string>
         <string name="kile">Кили</string>
         <string name="modem">Модем КРЛ</string>
         <!-- Самолет на ДВС-->

@@ -8,9 +8,12 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +30,7 @@ public class diagnosticFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private Thread v;
 
     public diagnosticFragment() {
         // Required empty public constructor
@@ -66,7 +70,76 @@ public class diagnosticFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_diagnostic, container, false);
     }
 
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        TextView textView = view.findViewById(R.id.textik);
+
+        ImageButton fuselage = view.findViewById(R.id.fuselage);
+        ImageButton cr = view.findViewById(R.id.cr);
+        ImageButton tl = view.findViewById(R.id.tl);
+        ImageButton cc = view.findViewById(R.id.cc);
+        ImageButton modem = view.findViewById(R.id.modem);
+
+        fuselage.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    textView.setText(R.string.fus);
+                }else {
+                    textView.setText("");
+                }
+                return false;
+            }
+        });
+
+        cr.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    textView.setText(R.string.Cl);
+                }else{
+                    textView.setText("");
+                }
+                return false;
+            }
+        });
+
+        tl.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    textView.setText(R.string.Kl);
+                }else{
+                    textView.setText("");
+                }
+                return false;
+            }
+        });
+        cc.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    textView.setText(R.string.kile);
+                }else {
+                    textView.setText("");
+                }
+                return false;
+            }
+        });
+
+        modem.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    textView.setText(R.string.modem);
+                }else{
+                    textView.setText("");
+                }
+                return false;
+            }
+        });
+
     }
+
 }
